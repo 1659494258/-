@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Home",
+    "_key": "/index",
+    "icon": "icon iconfont icon-shouye",
+    "prentID": "0"
+  },
+  {
+    "id": "2",
+    "title": "Customer Service",
+    "icon": "icon iconfont icon-shangpin",
+    "_key": "/customer",
+    "prentID": "0",
+    "children": [
+      {
+        "id": "2-1",
+        "title": "Recharge Order",
+        "icon": "icon iconfont icon-shangpinliebiao",
+        "_key": "/customer/rechargeOrder",
+        "prentID": "2"
+      },
+      {
+        "id": "2-2",
+        "title": "Withdraw Order",
+        "icon": "icon iconfont icon-tianjiashangpin",
+        "_key": "/customer/withdrawOrder",
+        "prentID": "2"
+      }
+    ]
+  }
+]
